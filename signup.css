@@ -1,0 +1,75 @@
+body {
+  height: 800px;
+  background-color: rgb(54, 55, 59);
+  background-image: url(./Resources/Img/teacherbackground.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
+header {
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+}
+a {
+  color: white;
+  text-decoration: none;
+}
+.hidden {
+  display: none;
+}
+.signup-form {
+  width: 300px;
+  box-shadow: 0 0 3px 0 lightskyblue;
+  background-color: lightskyblue;
+  padding: 5px;
+  margin: 8% auto 0;
+  text-align: center;
+  border-radius: 5px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.input-box {
+  border-radius: 10px;
+  padding: 10px;
+  margin: 10px;
+  width: 75%;
+  border: 1px solid black;
+}
+.signup-btn {
+  width: 65%;
+  padding: 10px;
+  border-radius: 10px;
+  font-size: 16px;
+  margin: 10px;
+  outline: none;
+  cursor: pointer;
+}
+.signup-btn:hover {
+  background-color: rgb(54, 55, 59);
+  color: white;
+}
+.signup-btn:active {
+  transform: scale(0.97);
+}
+.success {
+  border-color: rgba(173, 255, 47, 0.7);
+}
+.error {
+  border-color: rgba(224, 54, 58, 1);
+}
+footer {
+  color: black;
+  background-color: lightblue;
+  font-size: 20px;
+  width: 100%;
+  padding: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+}
+small {
+  color: rgba(224, 54, 58, 1);
+  visibility: hidden;
+}
